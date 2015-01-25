@@ -14,7 +14,8 @@
         }
     ],
     "require": {
-        "php": "Yii2"
+        "Yii2": ">=2.0.0",
+        "yii2-jui": "*"
     },
     "autoload": {
         "psr-0": {
