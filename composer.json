@@ -1,0 +1,24 @@
+{
+    "name": "saidbakr/yii-jui-themes-list",
+    "type": "widget",
+    "description": "Yii2 widget to list and apply yii-jui themes",
+    "keywords": ["yii2","widget","jui","themes","change theme"],
+    "homepage": "http://github.com/saidbakr/yii-jui-themes-list",
+    "license": "Apache2",
+    "authors": [
+        {
+            "name": "Said Bakr",
+            "email": "said_fox@yahoo.com",
+            "homepage": "http://2index.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "Yii2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Monolog": "src"
+        }
+    }
+}
