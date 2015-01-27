@@ -18,7 +18,7 @@
         "bower-asset/jquery-ui": "1.11.*@stable"
     },
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "saidbakr\\tools\\": ""
         }
     }
