@@ -1,10 +1,10 @@
 <?php
-namespace common\libs;
+namespace vendor\saidbakr;
 
 use yii;
 use yii\base\Widget;
-use yii\web\View;
-use yii\web\JqueryAsset;
+//use yii\web\View;
+//use yii\web\JqueryAsset;
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -67,10 +67,10 @@ EOD;
 		
   }
   public function run() {
-	parent::run();
-	$this->getView()->registerJsFile('/myjs/jquery.cookie.js', ['depends' => [JqueryAsset::className()]]);
-	$this->getView()->registerJsFile('/myjs/JuiThemeSelect.js', ['depends' => [JqueryAsset::className()]]);
+	parent::run();	
+	JuiThemeSelectAsset::register($this->getView());	
 	return "$this->label $this->list \n $this->script";
   }
 }
+
 
