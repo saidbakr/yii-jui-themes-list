@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-0": {
-            "yii-jui-themes-list": ""
+            "saidbakr\\tools\\": ""
         }
     }
 }
