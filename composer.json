@@ -14,8 +14,9 @@
         }
     ],
     "require": {
-        "Yii2": ">=2.0.0",
-        "yii2-jui": "*"
+        "yiisoft/yii2": "*",
+        "bower-asset/jquery-ui": "1.11.*@stable"
+    },
     },
     "autoload": {
         "psr-0": {
