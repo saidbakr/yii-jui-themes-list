@@ -1,3 +1,7 @@
+/**
+ * The client-side Javascript code required to apply the change of the theme
+ * and saving the choice in cookies using jquery.cookie.js plugin.
+ **/
 $(document).ready(function(){
   if ($.cookie('juiTheme-'+juiThemeSelectId)){
 	changeTheme($.cookie('juiTheme-'+juiThemeSelectId));
