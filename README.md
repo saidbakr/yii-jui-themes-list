@@ -18,7 +18,7 @@ Simply you can use it in your views to render a select options list for the them
 ```
 <?php
 // Use keyword
-use vendor\saidbakr\JuiThemeSelectWidget;
+use saidbakr\tools\JuiThemeSelectWidget;
 ?>
 
 <?= JuiThemeSelectWidget::widget() ;?>
