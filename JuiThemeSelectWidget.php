@@ -1,5 +1,5 @@
 <?php
-namespace vendor\saidbakr;
+namespace saidbakr\tools;
 
 use yii;
 use yii\base\Widget;
