@@ -2,6 +2,10 @@
 A yii2 widget that displays a list of jui themes and applying change to the selected theme then saving the choice by a mean of cookie.
 
 ##Installation
+From version 1.6 simply use composer in the root directory of your yii2 project as follows:
+```
+composer require saidbakr/yii-jui-themes-list=1.6
+```
 Till this time I could not able to maintain it via composer. Howver, the installation is very easy as follows:
 
  1. Make sure that your Yii2 project has yii2-jui extenstion.
