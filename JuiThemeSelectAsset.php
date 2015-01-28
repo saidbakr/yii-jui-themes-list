@@ -1,5 +1,5 @@
 <?php
-namespace vendor\saidbakr;
+namespace saidbakr\tools;
 use yii\web\AssetBundle;
 
 /*
@@ -16,7 +16,7 @@ use yii\web\AssetBundle;
  */
 class JuiThemeSelectAsset extends AssetBundle
 {
-  public $sourcePath = '@vendor/saidbakr';
+  public $sourcePath = '@vendor/saidbakr/yii-jui-themes-list';
     
     public $autoGenerate = true;
     /**
