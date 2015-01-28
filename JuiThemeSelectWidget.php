@@ -31,7 +31,7 @@ class JuiThemeSelectWidget extends Widget
   }
   public static function getThemesList()
   {
-	$themesPath =  dirname(Yii::$app->basePath).DIRECTORY_SEPARATOR."vendor".DIRECTORY_SEPARATOR."bower".DIRECTORY_SEPARATOR."jquery-ui".DIRECTORY_SEPARATOR."themes";
+	$themesPath =  Yii::$app->vendorPath.DIRECTORY_SEPARATOR."bower".DIRECTORY_SEPARATOR."jquery-ui".DIRECTORY_SEPARATOR."themes";
 	$output = [];
 	foreach (scandir($themesPath) as $item){
 	  if (is_dir($themesPath.DIRECTORY_SEPARATOR.$item) && ($item != '.' && $item !='..')) $output[] = $item;
