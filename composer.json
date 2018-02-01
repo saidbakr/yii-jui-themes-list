@@ -4,7 +4,7 @@
     "description": "Yii2 widget to list and apply yii-jui themes",
     "keywords": ["yii2","widget","jui","themes","change theme"],
     "homepage": "http://github.com/saidbakr/yii-jui-themes-list",
-    "license": "Apache2",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Said Bakr",
@@ -15,7 +15,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/jquery-ui": "1.11.*@stable"
+        "bower-asset/jquery-ui": ">=1.11.*@stable"
     },
     "autoload": {
         "psr-4": {
